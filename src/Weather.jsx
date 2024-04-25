@@ -46,7 +46,7 @@ const Weather = () => {
 
   return (
     <div className="container">
-      <div className="row pg my-5 p-3 ">
+      <div className="row pg my-5 p-3" style={{ backgroundColor: "cornflowerblue" }}>
         <div className="col-lg-4 col-md-4 col-sm-12 mt-4">
           <div className="d-flex justify-content-center">
             <input className="city" type="search" placeholder="Search Your City" value={searchcity} onChange={(e) => setsearchcity(e.target.value)}></input>
