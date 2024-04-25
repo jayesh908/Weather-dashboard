@@ -1,0 +1,20 @@
+.city{
+  width: 16rem;
+  padding: 10px;
+  border-radius: 25px;
+  border: 1px solid black;
+  border-bottom-right-radius: 0px;
+  border-top-right-radius: 0px;
+}
+.sbtn{
+  border-radius: 25px;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  color: white;
+  background-color: #00092C;
+}
+
+.pg{
+  border: 1px solid black;
+  border-radius: 20px;
+}
